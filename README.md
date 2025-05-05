@@ -7,7 +7,7 @@ It showcases core features, pricing plans, and a strong brand message – all bu
 
 ## 🌐 Live Preview
 
-➡️ [Check it out on GitHub Pages](https://your-username.github.io/skydrop/)
+➡️ [Check it out on GitHub Pages](https://mentor-kks.github.io/01_WBS_Project_SkyDrop/))
 
 ---
 
