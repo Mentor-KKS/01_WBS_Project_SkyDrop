@@ -201,7 +201,7 @@ nav ul li:last-child {
   color: var(--color-accent);
 }
 
-/* Responsive Toggle anzeigen */
+/* Responsive Toggle */
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -406,7 +406,7 @@ nav ul li:last-child {
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    height: 80vh;
+    height: 100vh;
     gap: 2rem;
   }
 
@@ -471,4 +471,90 @@ nav ul li:last-child {
   height: 70px;
   object-fit: contain;
   margin-bottom: 20px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 3rem;
+  text-align: center;
+  background-color: var(--color-background);
+}
+#pricing h2 {
+  margin-bottom: 1.5rem;
+  font-family: var(--font-heading);
+  color: var(--color-primary-dark);
+}
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.plan-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+.plan-card:hover {
+  transform: translateY(-5px);
+}
+.plan-card h3 {
+  margin-bottom: 0.5rem;
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+}
+.plan-card .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+.plan-card li {
+  margin-bottom: 0.5rem;
+  color: var(--color-text-light);
+}
+.plan-card button {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: var(--font-main);
+}
+.plan-card button:hover {
+  background-color: var(--color-primary-dark);
+}
+/* Footer */
+footer {
+  background-color: #1e293b;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: var(--font-main);
+}
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+footer nav {
+  margin-top: 1rem;
+}
+footer a {
+  color: #93c5fd;
+  margin: 0 0.75rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+footer a:hover {
+  text-decoration: underline;
 }
