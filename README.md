@@ -7,7 +7,7 @@ It showcases core features, pricing plans, and a strong brand message – all bu
 
 ## 🌐 Live Preview
 
-➡️ [Check it out on GitHub Pages](https://mentor-kks.github.io/01_WBS_Project_SkyDrop/))
+➡️ [Check it out on GitHub Pages](https://mentor-kks.github.io/01_WBS_Project_SkyDrop/)
 
 ---
 
@@ -33,15 +33,15 @@ It showcases core features, pricing plans, and a strong brand message – all bu
 
 ---
 
-🤝 Team / Contributors
+## 🤝 Team / Contributors
 This first project is part of the WBS Coding School SE-01 Class.
 Made with ❤️ by:
 
-Kon (https://github.com/Mentor-KKS)
+Kon: (https://github.com/Mentor-KKS)
 
-Julien (https://github.com/ChaOscDelEch)
+Julien: (https://github.com/ChaOscDelEch)
 
-Abiy (https://github.com/AbiyMehari)
+Abiy: (https://github.com/AbiyMehari)
 
-📌 Notes
+## 📌 Notes
 Built as a learning exercise – not a commercial product
