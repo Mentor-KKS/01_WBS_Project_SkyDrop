@@ -138,6 +138,16 @@ nav ul li:last-child {
   z-index: 1100;
 }
 
+.menu-icon::after {
+  position: fixed;
+  content: "MENU";
+  display: block;
+  right: 5rem;
+  top: 2.3rem;
+  margin: 6px auto;
+  font-size: 1.2rem;
+}
+
 .menu-icon::before {
   content: "☰"; /* Burger default */
 }
@@ -199,6 +209,10 @@ nav ul li:last-child {
 
   .nav-menu li:last-child {
     border-bottom: none;
+  }
+
+  .menu-icon::after {
+    display: none;
   }
 }
 
@@ -378,6 +392,48 @@ nav ul li:last-child {
   font-size: 2.5rem;
   margin: 0;
   padding: 3rem 3rem;
+}
+
+.video iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    height: 80vh;
+    gap: 2rem;
+  }
+
+  .hero .left {
+    margin-top: 20rem;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 1.5rem;
+  }
+
+  .hero .right {
+    display: none;
+  }
+
+  /* Responsive iframe */
+  .video iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    max-width: 100%;
+  }
+
+  .video h2 {
+    font-size: 1.8rem;
+    padding: 1.5rem;
+  }
 }
 
 /* feature section */
