@@ -37,11 +37,11 @@ It showcases core features, pricing plans, and a strong brand message – all bu
 This first project is part of the WBS Coding School SE-01 Class.
 Made with ❤️ by:
 
-Kon
+Kon (https://github.com/Mentor-KKS)
 
-Julien
+Julien (https://github.com/ChaOscDelEch)
 
-Abiy
+Abiy (https://github.com/AbiyMehari)
 
 📌 Notes
 Built as a learning exercise – not a commercial product
